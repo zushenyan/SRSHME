@@ -1,3 +1,6 @@
+# Portal
+[Portal to SRSHME](http://zushenyan.github.io/SRSHME/)
+
 # SRSHME
 SRSHME - Simple Realtime Syntax Highlight Markdown Editor. Just a showcase of how realtime syntax highlight in HTML is possible.
 
