@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Simple Realtime Syntax Highlight Markdown Editor</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header class="header">
-		<h1>Simple Realtime Syntax Highlight Markdown Editor</h1>
-	</header>
-	<section class="main">
-		<div class="editor-wrapper">
-			<div id="editor">
-				<div id="measure"></div>
-				<div id="view">
-					<div id="lines"></div>
-					<div id="caret"></div>
+	<head>
+		<title>Simple Realtime Syntax Highlight Markdown Editor</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1>Simple Realtime Syntax Highlight Markdown Editor</h1>
+		</header>
+		<section class="main">
+			<div class="editor-wrapper">
+				<div id="editor">
+					<div id="measure"></div>
+					<div id="view">
+						<div id="lines"></div>
+						<div id="caret"></div>
+					</div>
+					<textarea id="input" wrap="off" spellcheck="false" autocorrect="off" autocapitalize="off"></textarea>
 				</div>
-				<textarea id="input" wrap="off" spellcheck="false" autocorrect="off" autocapitalize="off"></textarea>
 			</div>
-		</div>
-	</section>
-	<section class="info">
-		<h1>Instructions</h1>
-		<p>SRSHME is a showcase of how realtime syntax highlight works in HTML/CSS/JavaScript.</p>
-		<p>The editor highlights some Markdown syntaxes below:</p>
-		<ul>
-			<li>link : [text](link)</li>
-			<li>list : *, -</li>
-			<li>quote : ></li>
-			<li>header: #, ##, ###</li>
-			<li>underline-header: ===</li>
-		</ul>
-		<p>Beware of this is just a showcase, which means codes are written in brutal way and if you type too many texts, it will surely be laggy.</p>
-		<p>For more behind the scene you can read <a href="http://zushenyan.github.io/blog/2013/10/16/realtime-syntax-highlight-edtior-on-web/">this article</a> of mine.</p>
-	</section>
-	<script src="script.js"></script>
-</body>
+		</section>
+		<section class="info">
+			<h1>Instructions</h1>
+			<p>SRSHME is a showcase of how realtime syntax highlight works in HTML/CSS/JavaScript.</p>
+			<p>The editor highlights some Markdown syntaxes below:</p>
+			<ul>
+				<li>link : [text](link)</li>
+				<li>list : *, -</li>
+				<li>quote : ></li>
+				<li>header: #, ##, ###</li>
+				<li>underline-header: ===</li>
+			</ul>
+			<p>Beware of this is just a showcase, which means codes are written in brutal way and if you type too many texts, it will surely be laggy.</p>
+			<p>For more behind the scene you can read <a href="http://zushenyan.github.io/blog/2013/10/16/realtime-syntax-highlight-edtior-on-web/">this article</a> of mine.</p>
+		</section>
+		<script src="script.js"></script>
+	</body>
 </html>
